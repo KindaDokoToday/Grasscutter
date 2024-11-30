@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq;
+import io.grasscutter.net.proto.tower.TowerEnterLevelReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.TowerEnterLevelReq)

@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
-import emu.grasscutter.net.proto.UnlockPersonalLineReqOuterClass.UnlockPersonalLineReq;
+import io.grasscutter.net.proto.retcode.Retcode;
+import io.grasscutter.net.proto.quest.UnlockPersonalLineReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketUnlockPersonalLineRsp;
 

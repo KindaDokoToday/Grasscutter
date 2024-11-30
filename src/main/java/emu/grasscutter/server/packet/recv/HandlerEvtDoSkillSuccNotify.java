@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EvtDoSkillSuccNotifyOuterClass.EvtDoSkillSuccNotify;
+import io.grasscutter.net.proto.fight.EvtDoSkillSuccNotify;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.EvtDoSkillSuccNotify)

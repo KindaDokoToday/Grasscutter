@@ -1,11 +1,11 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetUgcReqOuterClass.GetUgcReq;
-import emu.grasscutter.net.proto.GetUgcRspOuterClass.GetUgcRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
-import emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo;
-import emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord;
+import io.grasscutter.net.proto.ugc.GetUgcReq;
+import io.grasscutter.net.proto.ugc.GetUgcRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
+import io.grasscutter.net.proto.ugc.UgcMusicBriefInfo;
+import io.grasscutter.net.proto.ugc.UgcMusicRecord;
 
 public class PacketGetUgcRsp extends BasePacket {
 

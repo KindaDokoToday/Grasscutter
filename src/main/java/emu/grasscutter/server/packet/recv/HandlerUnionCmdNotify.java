@@ -4,8 +4,8 @@ import static emu.grasscutter.config.Configuration.*;
 
 import emu.grasscutter.Grasscutter.ServerDebugMode;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.UnionCmdNotifyOuterClass.UnionCmdNotify;
-import emu.grasscutter.net.proto.UnionCmdOuterClass.UnionCmd;
+import io.grasscutter.net.proto.misc.UnionCmdNotify;
+import io.grasscutter.net.proto.misc.UnionCmd;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.UnionCmdNotify)

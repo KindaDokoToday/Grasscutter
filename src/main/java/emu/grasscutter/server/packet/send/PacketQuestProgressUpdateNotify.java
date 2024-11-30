@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.quest.GameQuest;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestProgressUpdateNotifyOuterClass.QuestProgressUpdateNotify;
+import io.grasscutter.net.proto.quest.QuestProgressUpdateNotify;
 
 public class PacketQuestProgressUpdateNotify extends BasePacket {
 

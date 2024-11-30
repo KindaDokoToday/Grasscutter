@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TakeoffEquipReqOuterClass.TakeoffEquipReq;
+import io.grasscutter.net.proto.item.TakeoffEquipReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketTakeoffEquipRsp;
 

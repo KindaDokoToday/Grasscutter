@@ -9,7 +9,7 @@ import emu.grasscutter.data.excels.OpenStateData;
 import emu.grasscutter.data.excels.OpenStateData.OpenStateCondType;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.game.quest.enums.*;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.retcode.Retcode;
 import emu.grasscutter.scripts.data.ScriptArgs;
 import emu.grasscutter.server.packet.send.*;
 import java.util.HashSet;

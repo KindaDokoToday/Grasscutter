@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PrivateChatReqOuterClass.PrivateChatReq;
+import io.grasscutter.net.proto.chat.PrivateChatReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.PrivateChatReq)

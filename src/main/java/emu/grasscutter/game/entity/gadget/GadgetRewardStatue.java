@@ -3,10 +3,10 @@ package emu.grasscutter.game.entity.gadget;
 import emu.grasscutter.game.dungeons.challenge.WorldChallenge;
 import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
-import emu.grasscutter.net.proto.InteractTypeOuterClass.InteractType;
+import io.grasscutter.net.proto.gadget.GadgetInteractReq;
+import io.grasscutter.net.proto.gadget.InteractType;
 import emu.grasscutter.net.proto.ResinCostTypeOuterClass;
-import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
+import io.grasscutter.net.proto.define.SceneGadgetInfo;
 import emu.grasscutter.server.packet.send.PacketGadgetInteractRsp;
 
 public final class GadgetRewardStatue extends GadgetContent {

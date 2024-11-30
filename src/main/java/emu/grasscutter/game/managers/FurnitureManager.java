@@ -5,7 +5,7 @@ import emu.grasscutter.game.home.FurnitureMakeSlotItem;
 import emu.grasscutter.game.player.*;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.net.proto.ItemParamOuterClass;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.retcode.Retcode;
 import emu.grasscutter.server.packet.send.*;
 import emu.grasscutter.utils.Utils;
 import java.util.*;

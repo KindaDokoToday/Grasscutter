@@ -4,9 +4,9 @@ import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.VehicleInteractRspOuterClass.VehicleInteractRsp;
-import emu.grasscutter.net.proto.VehicleInteractTypeOuterClass.VehicleInteractType;
-import emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember;
+import io.grasscutter.net.proto.gadget.VehicleInteractRsp;
+import io.grasscutter.net.proto.gadget.VehicleInteractType;
+import io.grasscutter.net.proto.define.VehicleMember;
 
 public class PacketVehicleInteractRsp extends BasePacket {
 

@@ -6,7 +6,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.packet.BasePacket;
-import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
+import io.grasscutter.net.proto.scene.EnterType;
 import emu.grasscutter.server.packet.send.*;
 
 /** Hooks into the {@link Player} class, adding convenient ways to do certain things. */

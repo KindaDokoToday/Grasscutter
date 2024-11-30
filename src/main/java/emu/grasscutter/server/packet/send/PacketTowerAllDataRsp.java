@@ -2,9 +2,9 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.tower.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp;
-import emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecord;
-import emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord;
+import io.grasscutter.net.proto.tower.TowerAllDataRsp;
+import io.grasscutter.net.proto.tower.TowerCurLevelRecord;
+import io.grasscutter.net.proto.tower.TowerFloorRecord;
 import emu.grasscutter.net.proto.TowerLevelRecordOuterClass;
 import emu.grasscutter.utils.helpers.DateHelper;
 import java.util.*;

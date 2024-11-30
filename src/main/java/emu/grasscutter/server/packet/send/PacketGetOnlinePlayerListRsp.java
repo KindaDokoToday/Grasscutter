@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetOnlinePlayerListRspOuterClass.GetOnlinePlayerListRsp;
+import io.grasscutter.net.proto.misc.GetOnlinePlayerListRsp;
 import java.util.List;
 
 public class PacketGetOnlinePlayerListRsp extends BasePacket {

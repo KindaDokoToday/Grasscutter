@@ -2,9 +2,9 @@ package emu.grasscutter.game.managers.mapmark;
 
 import dev.morphia.annotations.Entity;
 import emu.grasscutter.game.world.Position;
-import emu.grasscutter.net.proto.MapMarkFromTypeOuterClass.MapMarkFromType;
-import emu.grasscutter.net.proto.MapMarkPointOuterClass.MapMarkPoint;
-import emu.grasscutter.net.proto.MapMarkPointTypeOuterClass.MapMarkPointType;
+import io.grasscutter.net.proto.define.MapMarkFromType;
+import io.grasscutter.net.proto.define.MapMarkPoint;
+import io.grasscutter.net.proto.define.MapMarkPointType;
 
 @Entity
 public class MapMark {

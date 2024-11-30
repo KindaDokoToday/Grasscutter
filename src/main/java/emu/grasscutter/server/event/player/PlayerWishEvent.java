@@ -3,7 +3,7 @@ package emu.grasscutter.server.event.player;
 import emu.grasscutter.game.gacha.GachaBanner;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem;
+import io.grasscutter.net.proto.gacha.GachaItem;
 import emu.grasscutter.server.event.Cancellable;
 import emu.grasscutter.server.event.types.PlayerEvent;
 import java.util.List;

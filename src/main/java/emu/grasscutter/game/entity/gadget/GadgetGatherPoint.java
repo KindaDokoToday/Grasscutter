@@ -6,9 +6,9 @@ import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
-import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
-import emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo;
-import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
+import io.grasscutter.net.proto.gadget.GadgetInteractReq;
+import io.grasscutter.net.proto.define.GatherGadgetInfo;
+import io.grasscutter.net.proto.define.SceneGadgetInfo;
 
 /** Spawner for the gather objects */
 public final class GadgetGatherPoint extends GadgetContent {

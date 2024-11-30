@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DropHintNotifyOuterClass.DropHintNotify;
-import emu.grasscutter.net.proto.VectorOuterClass.Vector;
+import io.grasscutter.net.proto.item.DropHintNotify;
+import io.grasscutter.net.proto.define.Vector;
 
 public class PacketDropHintNotify extends BasePacket {
     public PacketDropHintNotify(int itemId, Vector position) {

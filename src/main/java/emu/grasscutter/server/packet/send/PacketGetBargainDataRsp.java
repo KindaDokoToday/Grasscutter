@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.quest.BargainRecord;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetBargainDataRspOuterClass.GetBargainDataRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.quest.GetBargainDataRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public final class PacketGetBargainDataRsp extends BasePacket {
     public PacketGetBargainDataRsp(Retcode retcode) {

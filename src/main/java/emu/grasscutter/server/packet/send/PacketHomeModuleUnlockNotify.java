@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.HomeModuleUnlockNotifyOuterClass.HomeModuleUnlockNotify;
+import io.grasscutter.net.proto.home.HomeModuleUnlockNotify;
 
 public class PacketHomeModuleUnlockNotify extends BasePacket {
 

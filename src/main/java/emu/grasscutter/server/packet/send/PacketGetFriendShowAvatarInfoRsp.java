@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetFriendShowAvatarInfoRspOuterClass.GetFriendShowAvatarInfoRsp;
-import emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo;
+import io.grasscutter.net.proto.social.GetFriendShowAvatarInfoRsp;
+import io.grasscutter.net.proto.define.ShowAvatarInfo;
 import java.util.List;
 
 @Opcodes(PacketOpcodes.GetFriendShowAvatarInfoRsp)

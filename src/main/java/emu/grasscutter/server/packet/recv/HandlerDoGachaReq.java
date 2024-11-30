@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DoGachaReqOuterClass.DoGachaReq;
+import io.grasscutter.net.proto.gacha.DoGachaReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.DoGachaReq)

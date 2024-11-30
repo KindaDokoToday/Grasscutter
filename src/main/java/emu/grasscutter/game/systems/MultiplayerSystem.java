@@ -5,7 +5,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.player.Player.SceneLoadState;
 import emu.grasscutter.game.props.EnterReason;
 import emu.grasscutter.game.world.World;
-import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
+import io.grasscutter.net.proto.scene.EnterType;
 import emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass;
 import emu.grasscutter.server.game.*;
 import emu.grasscutter.server.packet.send.*;

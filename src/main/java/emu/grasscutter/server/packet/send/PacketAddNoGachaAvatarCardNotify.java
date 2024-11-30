@@ -4,7 +4,7 @@ import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AddNoGachaAvatarCardNotifyOuterClass.AddNoGachaAvatarCardNotify;
+import io.grasscutter.net.proto.avatar.AddNoGachaAvatarCardNotify;
 
 public class PacketAddNoGachaAvatarCardNotify extends BasePacket {
 

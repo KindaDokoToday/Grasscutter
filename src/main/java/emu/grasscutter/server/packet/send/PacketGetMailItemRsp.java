@@ -7,7 +7,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.EquipParamOuterClass;
-import emu.grasscutter.net.proto.GetMailItemRspOuterClass.GetMailItemRsp;
+import io.grasscutter.net.proto.mail.GetMailItemRsp;
 import java.util.*;
 import java.util.stream.Collectors;
 

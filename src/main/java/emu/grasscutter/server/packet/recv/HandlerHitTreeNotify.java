@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.HitTreeNotifyOuterClass.HitTreeNotify;
+import io.grasscutter.net.proto.scene.HitTreeNotify;
 import emu.grasscutter.server.game.GameSession;
 
 /** Implement Deforestation Function */

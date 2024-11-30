@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.friends.Friendship;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AskAddFriendNotifyOuterClass.AskAddFriendNotify;
+import io.grasscutter.net.proto.social.AskAddFriendNotify;
 
 public class PacketAskAddFriendNotify extends BasePacket {
 

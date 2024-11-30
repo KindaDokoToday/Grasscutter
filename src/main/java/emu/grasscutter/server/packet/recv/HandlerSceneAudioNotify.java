@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify;
+import io.grasscutter.net.proto.scene.SceneAudioNotify;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketSceneAudioNotify;
 import java.util.List;

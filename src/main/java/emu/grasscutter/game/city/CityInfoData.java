@@ -1,7 +1,7 @@
 package emu.grasscutter.game.city;
 
 import dev.morphia.annotations.Entity;
-import emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo;
+import io.grasscutter.net.proto.scene.CityInfo;
 import lombok.*;
 
 @Entity

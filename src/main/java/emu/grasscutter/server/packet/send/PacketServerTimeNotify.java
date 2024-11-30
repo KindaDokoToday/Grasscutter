@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ServerTimeNotifyOuterClass.ServerTimeNotify;
+import io.grasscutter.net.proto.misc.ServerTimeNotify;
 
 public class PacketServerTimeNotify extends BasePacket {
 

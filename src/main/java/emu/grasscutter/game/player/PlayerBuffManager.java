@@ -6,7 +6,7 @@ import emu.grasscutter.data.excels.BuffData;
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.props.FightProperty;
 import emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType;
-import emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff;
+import io.grasscutter.net.proto.define.ServerBuff;
 import emu.grasscutter.server.packet.send.PacketServerBuffChangeNotify;
 import it.unimi.dsi.fastutil.ints.*;
 import java.util.*;

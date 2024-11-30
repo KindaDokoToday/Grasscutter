@@ -3,7 +3,7 @@ package emu.grasscutter.game.world;
 import com.github.davidmoten.rtreemulti.geometry.Point;
 import com.google.gson.annotations.SerializedName;
 import dev.morphia.annotations.Entity;
-import emu.grasscutter.net.proto.VectorOuterClass.Vector;
+import io.grasscutter.net.proto.define.Vector;
 import emu.grasscutter.utils.Utils;
 import java.io.Serializable;
 import java.util.List;

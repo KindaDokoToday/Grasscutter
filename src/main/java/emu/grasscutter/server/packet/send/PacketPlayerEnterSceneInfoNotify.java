@@ -4,11 +4,11 @@ import emu.grasscutter.game.entity.EntityAvatar;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo;
-import emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.AvatarEnterSceneInfo;
-import emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo;
-import emu.grasscutter.net.proto.PlayerEnterSceneInfoNotifyOuterClass.PlayerEnterSceneInfoNotify;
-import emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo;
+import io.grasscutter.net.proto.define.AbilitySyncStateInfo;
+import io.grasscutter.net.proto.scene.AvatarEnterSceneInfo;
+import io.grasscutter.net.proto.scene.MPLevelEntityInfo;
+import io.grasscutter.net.proto.scene.PlayerEnterSceneInfoNotify;
+import io.grasscutter.net.proto.scene.TeamEnterSceneInfo;
 
 public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
 

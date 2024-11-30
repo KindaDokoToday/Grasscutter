@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ReliquaryDecomposeRspOuterClass.ReliquaryDecomposeRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.item.ReliquaryDecomposeRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 import java.util.List;
 
 public class PacketReliquaryDecomposeRsp extends BasePacket {

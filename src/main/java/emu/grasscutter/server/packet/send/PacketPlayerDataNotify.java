@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PlayerDataNotifyOuterClass.PlayerDataNotify;
-import emu.grasscutter.net.proto.PropValueOuterClass.PropValue;
+import io.grasscutter.net.proto.player.PlayerDataNotify;
+import io.grasscutter.net.proto.define.PropValue;
 
 public class PacketPlayerDataNotify extends BasePacket {
 

@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.world.Scene;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ScenePlayerLocationNotifyOuterClass.ScenePlayerLocationNotify;
+import io.grasscutter.net.proto.scene.ScenePlayerLocationNotify;
 
 public class PacketScenePlayerLocationNotify extends BasePacket {
 

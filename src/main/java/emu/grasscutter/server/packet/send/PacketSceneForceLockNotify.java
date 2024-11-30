@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SceneForceLockNotifyOuterClass.SceneForceLockNotify;
+import io.grasscutter.net.proto.scene.SceneForceLockNotify;
 import java.util.Collection;
 import lombok.val;
 

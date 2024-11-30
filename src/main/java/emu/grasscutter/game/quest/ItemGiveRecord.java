@@ -3,7 +3,7 @@ package emu.grasscutter.game.quest;
 import dev.morphia.annotations.Entity;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.giving.GivingData.GiveMethod;
-import emu.grasscutter.net.proto.GivingRecordOuterClass.GivingRecord;
+import io.grasscutter.net.proto.player.GivingRecord;
 import java.util.*;
 import lombok.*;
 

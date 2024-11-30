@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify;
+import io.grasscutter.net.proto.avatar.AvatarFlycloakChangeNotify;
 
 public class PacketAvatarFlycloakChangeNotify extends BasePacket {
 

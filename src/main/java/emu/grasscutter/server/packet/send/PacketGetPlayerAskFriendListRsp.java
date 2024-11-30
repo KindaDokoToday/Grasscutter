@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.friends.Friendship;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetPlayerAskFriendListRspOuterClass.GetPlayerAskFriendListRsp;
+import io.grasscutter.net.proto.social.GetPlayerAskFriendListRsp;
 
 public class PacketGetPlayerAskFriendListRsp extends BasePacket {
 

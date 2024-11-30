@@ -3,8 +3,8 @@ package emu.grasscutter.game.entity.gadget;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass;
-import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
-import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
+import io.grasscutter.net.proto.gadget.GadgetInteractReq;
+import io.grasscutter.net.proto.define.SceneGadgetInfo;
 import lombok.val;
 
 public class GadgetAbility extends GadgetContent {

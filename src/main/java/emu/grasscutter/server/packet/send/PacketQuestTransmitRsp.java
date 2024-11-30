@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestTransmitReqOuterClass.QuestTransmitReq;
-import emu.grasscutter.net.proto.QuestTransmitRspOuterClass.QuestTransmitRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.quest.QuestTransmitReq;
+import io.grasscutter.net.proto.quest.QuestTransmitRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketQuestTransmitRsp extends BasePacket {
 

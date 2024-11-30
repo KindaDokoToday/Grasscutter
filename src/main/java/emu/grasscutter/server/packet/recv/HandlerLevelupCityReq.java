@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.LevelupCityReqOuterClass.LevelupCityReq;
+import io.grasscutter.net.proto.scene.LevelupCityReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.LevelupCityReq)

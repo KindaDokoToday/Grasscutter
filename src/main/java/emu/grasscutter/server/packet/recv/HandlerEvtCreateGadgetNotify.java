@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify;
+import io.grasscutter.net.proto.fight.EvtCreateGadgetNotify;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.EvtCreateGadgetNotify)

@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetPlayerSocialDetailRspOuterClass.GetPlayerSocialDetailRsp;
+import io.grasscutter.net.proto.social.GetPlayerSocialDetailRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
-import emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail;
+import io.grasscutter.net.proto.social.SocialDetail;
 
 public class PacketGetPlayerSocialDetailRsp extends BasePacket {
 

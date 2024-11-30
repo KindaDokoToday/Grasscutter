@@ -4,7 +4,7 @@ import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.inventory.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuickUseWidgetRspOuterClass.QuickUseWidgetRsp;
+import io.grasscutter.net.proto.widget.QuickUseWidgetRsp;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.QuickUseWidgetReq)

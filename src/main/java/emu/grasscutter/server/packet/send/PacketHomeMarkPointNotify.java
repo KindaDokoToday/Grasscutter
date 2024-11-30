@@ -6,8 +6,8 @@ import emu.grasscutter.game.home.HomeMarkPointProtoFactory;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import emu.grasscutter.net.proto.HomeMarkPointNotifyOuterClass.HomeMarkPointNotify;
-import emu.grasscutter.net.proto.HomeMarkPointSceneDataOuterClass.HomeMarkPointSceneData;
+import io.grasscutter.net.proto.home.HomeMarkPointNotify;
+import io.grasscutter.net.proto.home.HomeMarkPointSceneData;
 import java.util.Collection;
 import java.util.Set;
 

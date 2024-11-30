@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SceneAreaWeatherNotifyOuterClass.SceneAreaWeatherNotify;
+import io.grasscutter.net.proto.scene.SceneAreaWeatherNotify;
 
 public class PacketSceneAreaWeatherNotify extends BasePacket {
 

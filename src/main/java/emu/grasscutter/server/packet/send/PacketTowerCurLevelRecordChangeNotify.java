@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TowerCurLevelRecordChangeNotifyOuterClass.TowerCurLevelRecordChangeNotify;
-import emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecord;
+import io.grasscutter.net.proto.tower.TowerCurLevelRecordChangeNotify;
+import io.grasscutter.net.proto.tower.TowerCurLevelRecord;
 
 public class PacketTowerCurLevelRecordChangeNotify extends BasePacket {
 

@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarDataNotifyOuterClass.AvatarDataNotify;
+import io.grasscutter.net.proto.avatar.AvatarDataNotify;
 
 public class PacketAvatarDataNotify extends BasePacket {
 

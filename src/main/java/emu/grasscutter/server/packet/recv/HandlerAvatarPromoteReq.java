@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarPromoteReqOuterClass.AvatarPromoteReq;
+import io.grasscutter.net.proto.avatar.AvatarPromoteReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.AvatarPromoteReq)

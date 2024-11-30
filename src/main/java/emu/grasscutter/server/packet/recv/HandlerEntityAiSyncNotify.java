@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EntityAiSyncNotifyOuterClass.EntityAiSyncNotify;
+import io.grasscutter.net.proto.fight.EntityAiSyncNotify;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketEntityAiSyncNotify;
 

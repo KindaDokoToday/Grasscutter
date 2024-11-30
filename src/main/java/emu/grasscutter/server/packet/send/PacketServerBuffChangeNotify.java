@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.player.PlayerBuffManager.PlayerBuff;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify;
+import io.grasscutter.net.proto.fight.ServerBuffChangeNotify;
 import emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType;
 import java.util.Collection;
 import java.util.stream.Stream;

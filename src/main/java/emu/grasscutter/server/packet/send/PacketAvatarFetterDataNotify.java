@@ -3,9 +3,9 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.props.FetterState;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.AvatarFetterDataNotify;
-import emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo;
-import emu.grasscutter.net.proto.FetterDataOuterClass.FetterData;
+import io.grasscutter.net.proto.avatar.AvatarFetterDataNotify;
+import io.grasscutter.net.proto.define.AvatarFetterInfo;
+import io.grasscutter.net.proto.define.FetterData;
 
 public class PacketAvatarFetterDataNotify extends BasePacket {
 

@@ -1,7 +1,7 @@
 package emu.grasscutter.game.player;
 
 import emu.grasscutter.net.packet.BasePacket;
-import emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType;
+import io.grasscutter.net.proto.fight.ForwardType;
 import java.util.*;
 
 public class InvokeHandler<T> {

@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.game.gacha.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GachaWishReqOuterClass.GachaWishReq;
+import io.grasscutter.net.proto.gacha.GachaWishReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketGachaWishRsp;
 

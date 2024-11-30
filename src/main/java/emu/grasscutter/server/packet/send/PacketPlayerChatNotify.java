@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo;
-import emu.grasscutter.net.proto.PlayerChatNotifyOuterClass.PlayerChatNotify;
+import io.grasscutter.net.proto.scene.ChatInfo;
+import io.grasscutter.net.proto.scene.PlayerChatNotify;
 
 public class PacketPlayerChatNotify extends BasePacket {
 

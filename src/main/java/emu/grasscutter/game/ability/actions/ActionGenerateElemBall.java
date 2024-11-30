@@ -10,7 +10,7 @@ import emu.grasscutter.game.ability.Ability;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.props.SceneType;
 import emu.grasscutter.game.world.Position;
-import emu.grasscutter.net.proto.AbilityActionGenerateElemBallOuterClass.AbilityActionGenerateElemBall;
+import io.grasscutter.net.proto.ability.AbilityActionGenerateElemBall;
 
 @AbilityAction(AbilityModifierAction.Type.GenerateElemBall)
 public final class ActionGenerateElemBall extends AbilityActionHandler {

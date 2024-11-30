@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarTeamAllDataNotifyOuterClass.AvatarTeamAllDataNotify;
+import io.grasscutter.net.proto.avatar.AvatarTeamAllDataNotify;
 
 public class PacketAvatarTeamAllDataNotify extends BasePacket {
     public PacketAvatarTeamAllDataNotify(Player player) {

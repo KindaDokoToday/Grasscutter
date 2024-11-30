@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ForgeDataNotifyOuterClass.ForgeDataNotify;
-import emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData;
+import io.grasscutter.net.proto.item.ForgeDataNotify;
+import io.grasscutter.net.proto.item.ForgeQueueData;
 import java.util.Map;
 
 public class PacketForgeDataNotify extends BasePacket {

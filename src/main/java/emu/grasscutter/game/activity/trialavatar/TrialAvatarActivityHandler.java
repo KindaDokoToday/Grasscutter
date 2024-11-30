@@ -8,7 +8,7 @@ import emu.grasscutter.game.activity.*;
 import emu.grasscutter.game.dungeons.DungeonTrialTeam;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
-import emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo;
+import io.grasscutter.net.proto.activity.ActivityInfo;
 import emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord.GrantReason;
 import emu.grasscutter.server.packet.send.*;
 import emu.grasscutter.utils.JsonUtils;

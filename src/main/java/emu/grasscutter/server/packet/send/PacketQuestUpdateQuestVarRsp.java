@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestUpdateQuestVarReqOuterClass.QuestUpdateQuestVarReq;
+import io.grasscutter.net.proto.quest.QuestUpdateQuestVarReq;
 import emu.grasscutter.net.proto.QuestUpdateQuestVarRspOuterClass;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 @Opcodes(PacketOpcodes.QuestUpdateQuestVarReq)
 public class PacketQuestUpdateQuestVarRsp extends BasePacket {

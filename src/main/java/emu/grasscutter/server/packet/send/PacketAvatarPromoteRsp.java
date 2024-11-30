@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarPromoteRspOuterClass.AvatarPromoteRsp;
+import io.grasscutter.net.proto.avatar.AvatarPromoteRsp;
 
 public class PacketAvatarPromoteRsp extends BasePacket {
 

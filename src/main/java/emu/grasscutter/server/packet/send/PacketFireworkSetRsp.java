@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ReformFireworksRspOuterClass.ReformFireworksRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.widget.ReformFireworksRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketFireworkSetRsp extends BasePacket {
     public PacketFireworkSetRsp() {

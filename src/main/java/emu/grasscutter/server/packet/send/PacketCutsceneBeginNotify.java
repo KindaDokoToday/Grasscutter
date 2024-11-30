@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CutSceneBeginNotifyOuterClass.CutSceneBeginNotify;
+import io.grasscutter.net.proto.scene.CutSceneBeginNotify;
 
 public class PacketCutsceneBeginNotify extends BasePacket {
 

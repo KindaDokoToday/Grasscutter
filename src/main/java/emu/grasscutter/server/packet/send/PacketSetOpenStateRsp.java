@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
-import emu.grasscutter.net.proto.SetOpenStateRspOuterClass.SetOpenStateRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
+import io.grasscutter.net.proto.player.SetOpenStateRsp;
 
 public class PacketSetOpenStateRsp extends BasePacket {
     public PacketSetOpenStateRsp(int openState, int value) {

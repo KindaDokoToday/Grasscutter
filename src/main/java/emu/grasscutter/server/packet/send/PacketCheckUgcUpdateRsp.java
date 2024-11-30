@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CheckUgcUpdateRspOuterClass.CheckUgcUpdateRsp;
-import emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType;
+import io.grasscutter.net.proto.ugc.CheckUgcUpdateRsp;
+import io.grasscutter.net.proto.ugc.UgcType;
 
 public class PacketCheckUgcUpdateRsp extends BasePacket {
 

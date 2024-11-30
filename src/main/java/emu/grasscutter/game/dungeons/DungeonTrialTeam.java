@@ -1,6 +1,6 @@
 package emu.grasscutter.game.dungeons;
 
-import emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord;
+import io.grasscutter.net.proto.define.TrialAvatarGrantRecord;
 import java.util.List;
 import lombok.*;
 

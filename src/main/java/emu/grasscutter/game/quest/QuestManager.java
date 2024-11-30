@@ -11,7 +11,7 @@ import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.game.player.*;
 import emu.grasscutter.game.quest.enums.*;
 import emu.grasscutter.game.world.Position;
-import emu.grasscutter.net.proto.GivingRecordOuterClass.GivingRecord;
+import io.grasscutter.net.proto.player.GivingRecord;
 import emu.grasscutter.server.packet.send.*;
 import io.netty.util.concurrent.FastThreadLocalThread;
 import it.unimi.dsi.fastutil.ints.*;

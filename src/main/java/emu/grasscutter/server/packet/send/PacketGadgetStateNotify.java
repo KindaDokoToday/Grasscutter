@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GadgetStateNotifyOuterClass.GadgetStateNotify;
+import io.grasscutter.net.proto.gadget.GadgetStateNotify;
 
 public class PacketGadgetStateNotify extends BasePacket {
 

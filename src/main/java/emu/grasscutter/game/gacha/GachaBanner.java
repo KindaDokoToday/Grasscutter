@@ -5,8 +5,8 @@ import static emu.grasscutter.config.Configuration.*;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.common.ItemParamData;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.GachaInfoOuterClass.GachaInfo;
-import emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo;
+import io.grasscutter.net.proto.gacha.GachaInfo;
+import io.grasscutter.net.proto.gacha.GachaUpInfo;
 import emu.grasscutter.utils.Utils;
 import lombok.Getter;
 

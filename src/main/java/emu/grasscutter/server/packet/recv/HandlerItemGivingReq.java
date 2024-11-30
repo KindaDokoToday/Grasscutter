@@ -5,7 +5,7 @@ import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.quest.enums.QuestCond;
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ItemGivingReqOuterClass.ItemGivingReq;
+import io.grasscutter.net.proto.player.ItemGivingReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketItemGivingRsp;
 import emu.grasscutter.server.packet.send.PacketItemGivingRsp.Mode;

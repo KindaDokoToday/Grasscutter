@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.WeaponAwakenReqOuterClass.WeaponAwakenReq;
+import io.grasscutter.net.proto.item.WeaponAwakenReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.WeaponAwakenReq)

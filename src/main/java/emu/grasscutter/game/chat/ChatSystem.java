@@ -5,7 +5,7 @@ import static emu.grasscutter.config.Configuration.GAME_INFO;
 import emu.grasscutter.GameConstants;
 import emu.grasscutter.command.CommandMap;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo;
+import io.grasscutter.net.proto.scene.ChatInfo;
 import emu.grasscutter.server.event.player.PlayerChatEvent;
 import emu.grasscutter.server.game.GameServer;
 import emu.grasscutter.server.packet.send.*;

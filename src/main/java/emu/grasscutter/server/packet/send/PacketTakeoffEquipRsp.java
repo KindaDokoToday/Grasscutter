@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TakeoffEquipRspOuterClass.TakeoffEquipRsp;
+import io.grasscutter.net.proto.item.TakeoffEquipRsp;
 
 public class PacketTakeoffEquipRsp extends BasePacket {
 

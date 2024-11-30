@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CompoundDataNotifyOuterClass.CompoundDataNotify;
-import emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData;
+import io.grasscutter.net.proto.player.CompoundDataNotify;
+import io.grasscutter.net.proto.player.CompoundQueueData;
 import java.util.*;
 
 public class PacketCompoundDataNotify extends BasePacket {

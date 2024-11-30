@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.BattlePassCurScheduleUpdateNotifyOuterClass.BattlePassCurScheduleUpdateNotify;
+import io.grasscutter.net.proto.battle_pass.BattlePassCurScheduleUpdateNotify;
 
 public class PacketBattlePassCurScheduleUpdateNotify extends BasePacket {
 

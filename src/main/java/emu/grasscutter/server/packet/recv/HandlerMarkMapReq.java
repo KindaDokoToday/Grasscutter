@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq;
+import io.grasscutter.net.proto.scene.MarkMapReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.MarkMapReq)

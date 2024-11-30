@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SelectWorktopOptionRspOuterClass.SelectWorktopOptionRsp;
+import io.grasscutter.net.proto.gadget.SelectWorktopOptionRsp;
 
 public class PacketSelectWorktopOptionRsp extends BasePacket {
 

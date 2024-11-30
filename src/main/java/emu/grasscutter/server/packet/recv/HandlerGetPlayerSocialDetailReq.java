@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetPlayerSocialDetailReqOuterClass.GetPlayerSocialDetailReq;
-import emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail;
+import io.grasscutter.net.proto.social.GetPlayerSocialDetailReq;
+import io.grasscutter.net.proto.social.SocialDetail;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketGetPlayerSocialDetailRsp;
 

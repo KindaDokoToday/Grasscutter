@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.H5ActivityIdsNotifyOuterClass.H5ActivityIdsNotify;
+import io.grasscutter.net.proto.h5_activity.H5ActivityIdsNotify;
 
 public class PacketH5ActivityIdsNotify extends BasePacket {
 

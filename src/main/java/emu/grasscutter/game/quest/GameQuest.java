@@ -10,7 +10,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.game.quest.enums.*;
 import emu.grasscutter.net.proto.ChapterStateOuterClass;
-import emu.grasscutter.net.proto.QuestOuterClass.Quest;
+import io.grasscutter.net.proto.define.Quest;
 import emu.grasscutter.scripts.data.SceneGroup;
 import emu.grasscutter.server.event.player.PlayerCompleteQuestEvent;
 import emu.grasscutter.server.packet.send.*;

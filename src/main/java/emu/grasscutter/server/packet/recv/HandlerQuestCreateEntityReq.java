@@ -6,7 +6,7 @@ import emu.grasscutter.data.excels.monster.MonsterData;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestCreateEntityReqOuterClass.QuestCreateEntityReq;
+import io.grasscutter.net.proto.quest.QuestCreateEntityReq;
 import emu.grasscutter.scripts.data.SceneGadget;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketQuestCreateEntityRsp;

@@ -5,9 +5,9 @@ import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ItemOuterClass.Item;
-import emu.grasscutter.net.proto.PlayerStoreNotifyOuterClass.PlayerStoreNotify;
-import emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType;
+import io.grasscutter.net.proto.define.Item;
+import io.grasscutter.net.proto.item.PlayerStoreNotify;
+import io.grasscutter.net.proto.define.StoreType;
 
 public class PacketPlayerStoreNotify extends BasePacket {
 

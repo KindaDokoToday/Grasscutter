@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarFetterLevelRewardRspOuterClass.AvatarFetterLevelRewardRsp;
+import io.grasscutter.net.proto.avatar.AvatarFetterLevelRewardRsp;
 
 public class PacketAvatarFetterLevelRewardRsp extends BasePacket {
 

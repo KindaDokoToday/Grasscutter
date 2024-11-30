@@ -4,7 +4,7 @@ import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.ScenePointEntry;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PersonalSceneJumpReqOuterClass.PersonalSceneJumpReq;
+import io.grasscutter.net.proto.scene.PersonalSceneJumpReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketPersonalSceneJumpRsp;
 

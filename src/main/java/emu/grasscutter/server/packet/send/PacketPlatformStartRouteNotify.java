@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PlatformStartRouteNotifyOuterClass.PlatformStartRouteNotify;
+import io.grasscutter.net.proto.scene.PlatformStartRouteNotify;
 import lombok.val;
 
 public class PacketPlatformStartRouteNotify extends BasePacket {

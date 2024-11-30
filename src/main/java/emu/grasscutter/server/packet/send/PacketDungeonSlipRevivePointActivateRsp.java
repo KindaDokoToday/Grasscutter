@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DungeonSlipRevivePointActivateRspOuterClass.DungeonSlipRevivePointActivateRsp;
+import io.grasscutter.net.proto.dungeon.DungeonSlipRevivePointActivateRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 
 public class PacketDungeonSlipRevivePointActivateRsp extends BasePacket {

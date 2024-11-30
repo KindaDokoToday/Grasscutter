@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.NpcTalkRspOuterClass.NpcTalkRsp;
+import io.grasscutter.net.proto.npc.NpcTalkRsp;
 
 public class PacketNpcTalkRsp extends BasePacket {
     public PacketNpcTalkRsp(int npcEntityId, int curTalkId, int entityId) {

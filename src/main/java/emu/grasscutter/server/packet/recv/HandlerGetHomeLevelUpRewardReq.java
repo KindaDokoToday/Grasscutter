@@ -5,7 +5,7 @@ import emu.grasscutter.data.common.ItemParamData;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetHomeLevelUpRewardReqOuterClass.GetHomeLevelUpRewardReq;
+import io.grasscutter.net.proto.home.GetHomeLevelUpRewardReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketGetHomeLevelUpRewardRsp;
 import java.util.*;

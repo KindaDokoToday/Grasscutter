@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SceneEntityDrownRspOuterClass.SceneEntityDrownRsp;
+import io.grasscutter.net.proto.scene.SceneEntityDrownRsp;
 
 public class PacketSceneEntityDrownRsp extends BasePacket {
 

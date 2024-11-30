@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DungeonEntryInfoReqOuterClass.DungeonEntryInfoReq;
+import io.grasscutter.net.proto.dungeon.DungeonEntryInfoReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.DungeonEntryInfoReq)

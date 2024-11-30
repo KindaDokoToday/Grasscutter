@@ -3,11 +3,11 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.mail.Mail;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam;
-import emu.grasscutter.net.proto.MailChangeNotifyOuterClass.MailChangeNotify;
-import emu.grasscutter.net.proto.MailDataOuterClass.MailData;
-import emu.grasscutter.net.proto.MailItemOuterClass.MailItem;
-import emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent;
+import io.grasscutter.net.proto.define.EquipParam;
+import io.grasscutter.net.proto.mail.MailChangeNotify;
+import io.grasscutter.net.proto.define.MailData;
+import io.grasscutter.net.proto.define.MailItem;
+import io.grasscutter.net.proto.define.MailTextContent;
 import java.util.*;
 
 public class PacketMailChangeNotify extends BasePacket {

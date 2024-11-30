@@ -4,8 +4,8 @@ import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarLifeStateChangeNotifyOuterClass.AvatarLifeStateChangeNotify;
-import emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType;
+import io.grasscutter.net.proto.property.AvatarLifeStateChangeNotify;
+import io.grasscutter.net.proto.define.PlayerDieType;
 
 public class PacketAvatarLifeStateChangeNotify extends BasePacket {
 

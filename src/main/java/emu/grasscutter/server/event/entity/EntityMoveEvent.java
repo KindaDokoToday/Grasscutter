@@ -2,7 +2,7 @@ package emu.grasscutter.server.event.entity;
 
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.world.Position;
-import emu.grasscutter.net.proto.MotionStateOuterClass.MotionState;
+import io.grasscutter.net.proto.define.MotionState;
 import emu.grasscutter.server.event.types.EntityEvent;
 
 public final class EntityMoveEvent extends EntityEvent {

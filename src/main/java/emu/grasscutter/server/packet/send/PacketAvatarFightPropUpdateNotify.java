@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.props.FightProperty;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarFightPropUpdateNotifyOuterClass.AvatarFightPropUpdateNotify;
+import io.grasscutter.net.proto.property.AvatarFightPropUpdateNotify;
 import java.util.Map;
 
 public class PacketAvatarFightPropUpdateNotify extends BasePacket {

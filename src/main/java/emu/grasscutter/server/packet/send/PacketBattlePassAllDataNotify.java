@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.BattlePassAllDataNotifyOuterClass.BattlePassAllDataNotify;
+import io.grasscutter.net.proto.battle_pass.BattlePassAllDataNotify;
 
 public class PacketBattlePassAllDataNotify extends BasePacket {
     public PacketBattlePassAllDataNotify(Player player) {

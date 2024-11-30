@@ -3,8 +3,8 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.props.LifeState;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify;
-import emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType;
+import io.grasscutter.net.proto.property.LifeStateChangeNotify;
+import io.grasscutter.net.proto.define.PlayerDieType;
 
 public class PacketLifeStateChangeNotify extends BasePacket {
     public PacketLifeStateChangeNotify(GameEntity target, LifeState lifeState) {

@@ -7,7 +7,7 @@ import emu.grasscutter.data.binout.config.fields.ConfigAbilityData;
 import emu.grasscutter.data.excels.GadgetData;
 import emu.grasscutter.game.props.EntityIdType;
 import emu.grasscutter.game.world.*;
-import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
+import io.grasscutter.net.proto.define.SceneEntityInfo;
 import emu.grasscutter.scripts.EntityControllerScriptManager;
 import it.unimi.dsi.fastutil.ints.*;
 import javax.annotation.Nullable;

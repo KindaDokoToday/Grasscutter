@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.entity.EntityAvatar;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EvtAvatarLockChairReqOuterClass.EvtAvatarLockChairReq;
-import emu.grasscutter.net.proto.EvtAvatarLockChairRspOuterClass.EvtAvatarLockChairRsp;
+import io.grasscutter.net.proto.fight.EvtAvatarLockChairReq;
+import io.grasscutter.net.proto.fight.EvtAvatarLockChairRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 
 public class PacketEvtAvatarLockChairRsp extends BasePacket {

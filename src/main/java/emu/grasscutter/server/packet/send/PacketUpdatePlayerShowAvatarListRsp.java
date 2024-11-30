@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp;
+import io.grasscutter.net.proto.social.UpdatePlayerShowAvatarListRsp;
 import java.util.List;
 
 public class PacketUpdatePlayerShowAvatarListRsp extends BasePacket {

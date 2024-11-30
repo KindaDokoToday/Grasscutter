@@ -10,7 +10,7 @@ import emu.grasscutter.game.player.*;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.proto.ChangeHpReasonOuterClass.ChangeHpReason;
-import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
+import io.grasscutter.net.proto.property.PropChangeReason;
 import emu.grasscutter.server.event.player.PlayerLevelStatueEvent;
 import emu.grasscutter.server.packet.send.*;
 import java.util.*;

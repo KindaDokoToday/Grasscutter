@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.entity.EntityAvatar;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AbilityChangeNotifyOuterClass.AbilityChangeNotify;
+import io.grasscutter.net.proto.ability.AbilityChangeNotify;
 
 public class PacketAbilityChangeNotify extends BasePacket {
 

@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.TowerTeamOuterClass;
-import emu.grasscutter.net.proto.TowerTeamSelectReqOuterClass.TowerTeamSelectReq;
+import io.grasscutter.net.proto.tower.TowerTeamSelectReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketTowerTeamSelectRsp;
 

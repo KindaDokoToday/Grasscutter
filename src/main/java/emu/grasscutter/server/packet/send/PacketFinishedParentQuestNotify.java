@@ -4,7 +4,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.quest.GameMainQuest;
 import emu.grasscutter.game.quest.enums.ParentQuestState;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.FinishedParentQuestNotifyOuterClass.FinishedParentQuestNotify;
+import io.grasscutter.net.proto.quest.FinishedParentQuestNotify;
 
 public class PacketFinishedParentQuestNotify extends BasePacket {
 

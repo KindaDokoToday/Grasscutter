@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DeleteFriendRspOuterClass.DeleteFriendRsp;
+import io.grasscutter.net.proto.social.DeleteFriendRsp;
 
 public class PacketDeleteFriendRsp extends BasePacket {
 

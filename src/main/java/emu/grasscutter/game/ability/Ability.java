@@ -5,7 +5,7 @@ import emu.grasscutter.data.binout.AbilityData;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString;
+import io.grasscutter.net.proto.define.AbilityString;
 import emu.grasscutter.utils.Utils;
 import it.unimi.dsi.fastutil.objects.*;
 import java.util.*;

@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp;
+import io.grasscutter.net.proto.avatar.AvatarWearFlycloakRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 
 public class PacketAvatarWearFlycloakRsp extends BasePacket {

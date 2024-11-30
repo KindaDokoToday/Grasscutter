@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.data.common.PointData;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo;
-import emu.grasscutter.net.proto.DungeonEntryInfoRspOuterClass.DungeonEntryInfoRsp;
+import io.grasscutter.net.proto.dungeon.DungeonEntryInfo;
+import io.grasscutter.net.proto.dungeon.DungeonEntryInfoRsp;
 import java.util.*;
 
 public class PacketDungeonEntryInfoRsp extends BasePacket {

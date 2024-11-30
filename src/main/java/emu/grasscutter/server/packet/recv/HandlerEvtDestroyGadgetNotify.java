@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EvtDestroyGadgetNotifyOuterClass.EvtDestroyGadgetNotify;
+import io.grasscutter.net.proto.fight.EvtDestroyGadgetNotify;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.EvtDestroyGadgetNotify)

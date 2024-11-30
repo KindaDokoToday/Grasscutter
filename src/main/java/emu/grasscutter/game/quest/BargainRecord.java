@@ -3,8 +3,8 @@ package emu.grasscutter.game.quest;
 import dev.morphia.annotations.Entity;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.BargainData;
-import emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType;
-import emu.grasscutter.net.proto.BargainSnapshotOuterClass.BargainSnapshot;
+import io.grasscutter.net.proto.quest.BargainResultType;
+import io.grasscutter.net.proto.quest.BargainSnapshot;
 import emu.grasscutter.utils.Utils;
 import lombok.*;
 

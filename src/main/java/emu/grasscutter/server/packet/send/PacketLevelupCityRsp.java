@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo;
-import emu.grasscutter.net.proto.LevelupCityRspOuterClass.LevelupCityRsp;
+import io.grasscutter.net.proto.scene.CityInfo;
+import io.grasscutter.net.proto.scene.LevelupCityRsp;
 
 public class PacketLevelupCityRsp extends BasePacket {
 

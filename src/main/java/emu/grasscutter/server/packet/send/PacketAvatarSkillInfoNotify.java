@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarSkillInfoNotifyOuterClass.AvatarSkillInfoNotify;
-import emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo;
+import io.grasscutter.net.proto.skill.AvatarSkillInfoNotify;
+import io.grasscutter.net.proto.define.AvatarSkillInfo;
 import it.unimi.dsi.fastutil.ints.Int2IntMap;
 
 public class PacketAvatarSkillInfoNotify extends BasePacket {

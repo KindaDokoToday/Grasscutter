@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ChangeTeamNameReqOuterClass.ChangeTeamNameReq;
+import io.grasscutter.net.proto.avatar.ChangeTeamNameReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.ChangeTeamNameReq)

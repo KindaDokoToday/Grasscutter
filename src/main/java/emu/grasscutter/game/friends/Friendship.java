@@ -3,10 +3,10 @@ package emu.grasscutter.game.friends;
 import dev.morphia.annotations.*;
 import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief;
-import emu.grasscutter.net.proto.FriendOnlineStateOuterClass.FriendOnlineState;
+import io.grasscutter.net.proto.social.FriendBrief;
+import io.grasscutter.net.proto.social.FriendOnlineState;
 import emu.grasscutter.net.proto.PlatformTypeOuterClass;
-import emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture;
+import io.grasscutter.net.proto.define.ProfilePicture;
 import org.bson.types.ObjectId;
 
 @Entity(value = "friendships", useDiscriminator = false)

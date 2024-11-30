@@ -3,7 +3,7 @@
 // import emu.grasscutter.net.packet.BasePacket;
 // import emu.grasscutter.net.packet.PacketOpcodes;
 // import emu.grasscutter.net.proto.AddCustomTeamRspOuterClass.AddCustomTeamRsp;
-// import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+// import io.grasscutter.net.proto.retcode.Retcode;
 //
 // public class PacketAddCustomTeamRsp extends BasePacket {
 //    public PacketAddCustomTeamRsp(Retcode retcode) {

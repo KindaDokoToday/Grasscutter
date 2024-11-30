@@ -3,7 +3,7 @@ package emu.grasscutter.game.dungeons.dungeon_results;
 import emu.grasscutter.data.excels.dungeon.DungeonData;
 import emu.grasscutter.game.dungeons.DungeonEndStats;
 import emu.grasscutter.net.proto.DungeonSettleNotifyOuterClass;
-import emu.grasscutter.net.proto.TrialAvatarFirstPassDungeonNotifyOuterClass.TrialAvatarFirstPassDungeonNotify;
+import io.grasscutter.net.proto.activity.TrialAvatarFirstPassDungeonNotify;
 
 public class TrialAvatarDungeonResult extends BaseDungeonResult {
     int trialCharacterIndexId;

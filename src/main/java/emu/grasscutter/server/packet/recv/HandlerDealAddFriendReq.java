@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DealAddFriendReqOuterClass.DealAddFriendReq;
+import io.grasscutter.net.proto.social.DealAddFriendReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.DealAddFriendReq)

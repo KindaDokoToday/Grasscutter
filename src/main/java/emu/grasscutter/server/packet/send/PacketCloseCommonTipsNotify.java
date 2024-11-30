@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CloseCommonTipsNotifyOuterClass.CloseCommonTipsNotify;
+import io.grasscutter.net.proto.scene.CloseCommonTipsNotify;
 
 public class PacketCloseCommonTipsNotify extends BasePacket {
 

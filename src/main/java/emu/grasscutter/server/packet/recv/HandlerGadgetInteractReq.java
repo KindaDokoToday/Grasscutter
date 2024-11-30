@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
+import io.grasscutter.net.proto.gadget.GadgetInteractReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.GadgetInteractReq)

@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PingRspOuterClass.PingRsp;
+import io.grasscutter.net.proto.misc.PingRsp;
 
 public class PacketPingRsp extends BasePacket {
 

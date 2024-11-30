@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestDestroyEntityReqOuterClass.QuestDestroyEntityReq;
-import emu.grasscutter.net.proto.QuestDestroyEntityRspOuterClass.QuestDestroyEntityRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.quest.QuestDestroyEntityReq;
+import io.grasscutter.net.proto.quest.QuestDestroyEntityRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketQuestDestroyEntityRsp extends BasePacket {
 

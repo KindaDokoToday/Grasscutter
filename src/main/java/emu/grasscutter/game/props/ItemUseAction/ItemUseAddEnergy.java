@@ -3,7 +3,7 @@ package emu.grasscutter.game.props.ItemUseAction;
 import emu.grasscutter.data.excels.avatar.AvatarSkillDepotData;
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.props.ElementType;
-import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
+import io.grasscutter.net.proto.property.PropChangeReason;
 
 public abstract class ItemUseAddEnergy extends ItemUseAction {
     public abstract float getAddEnergy(ElementType avatarElement);

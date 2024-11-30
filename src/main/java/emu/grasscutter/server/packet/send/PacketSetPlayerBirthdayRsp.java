@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SetPlayerBirthdayRspOuterClass.SetPlayerBirthdayRsp;
+import io.grasscutter.net.proto.social.SetPlayerBirthdayRsp;
 
 public class PacketSetPlayerBirthdayRsp extends BasePacket {
 

@@ -1,8 +1,8 @@
 package emu.grasscutter.game.entity.gadget.platform;
 
 import emu.grasscutter.game.world.*;
-import emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion;
-import emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo;
+import io.grasscutter.net.proto.define.MathQuaternion;
+import io.grasscutter.net.proto.define.PlatformInfo;
 import emu.grasscutter.scripts.data.SceneGadget;
 import lombok.*;
 

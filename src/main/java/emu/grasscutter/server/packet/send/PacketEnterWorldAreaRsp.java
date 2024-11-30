@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EnterWorldAreaReqOuterClass.EnterWorldAreaReq;
-import emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp;
+import io.grasscutter.net.proto.scene.EnterWorldAreaReq;
+import io.grasscutter.net.proto.scene.EnterWorldAreaRsp;
 
 public class PacketEnterWorldAreaRsp extends BasePacket {
 

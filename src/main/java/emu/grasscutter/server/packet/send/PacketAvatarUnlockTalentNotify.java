@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarUnlockTalentNotifyOuterClass.AvatarUnlockTalentNotify;
+import io.grasscutter.net.proto.skill.AvatarUnlockTalentNotify;
 
 public class PacketAvatarUnlockTalentNotify extends BasePacket {
 

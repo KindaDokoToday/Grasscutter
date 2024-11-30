@@ -3,7 +3,7 @@ package emu.grasscutter.game.entity;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.props.EntityIdType;
 import emu.grasscutter.game.world.*;
-import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
+import io.grasscutter.net.proto.define.SceneEntityInfo;
 import it.unimi.dsi.fastutil.ints.*;
 import lombok.Getter;
 

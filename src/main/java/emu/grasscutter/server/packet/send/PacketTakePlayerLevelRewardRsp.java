@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TakePlayerLevelRewardRspOuterClass.TakePlayerLevelRewardRsp;
+import io.grasscutter.net.proto.player.TakePlayerLevelRewardRsp;
 
 public class PacketTakePlayerLevelRewardRsp extends BasePacket {
 

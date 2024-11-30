@@ -4,8 +4,8 @@ import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.MapLayerInfoOuterClass;
-import emu.grasscutter.net.proto.PlayerWorldSceneInfoListNotifyOuterClass.PlayerWorldSceneInfoListNotify;
-import emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo;
+import io.grasscutter.net.proto.scene.PlayerWorldSceneInfoListNotify;
+import io.grasscutter.net.proto.scene.PlayerWorldSceneInfo;
 import java.util.Map;
 
 public class PacketPlayerWorldSceneInfoListNotify extends BasePacket {

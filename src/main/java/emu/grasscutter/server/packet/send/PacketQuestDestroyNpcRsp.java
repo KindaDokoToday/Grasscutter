@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestDestroyNpcRspOuterClass.QuestDestroyNpcRsp;
+import io.grasscutter.net.proto.quest.QuestDestroyNpcRsp;
 
 public class PacketQuestDestroyNpcRsp extends BasePacket {
 

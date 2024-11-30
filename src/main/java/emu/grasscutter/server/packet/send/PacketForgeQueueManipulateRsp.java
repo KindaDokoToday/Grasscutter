@@ -2,10 +2,10 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ForgeQueueManipulateRspOuterClass.ForgeQueueManipulateRsp;
-import emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType;
-import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.item.ForgeQueueManipulateRsp;
+import io.grasscutter.net.proto.item.ForgeQueueManipulateType;
+import io.grasscutter.net.proto.define.ItemParam;
+import io.grasscutter.net.proto.retcode.Retcode;
 import java.util.List;
 
 public class PacketForgeQueueManipulateRsp extends BasePacket {

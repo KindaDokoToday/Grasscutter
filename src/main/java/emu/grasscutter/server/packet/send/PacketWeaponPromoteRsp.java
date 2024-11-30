@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.WeaponPromoteRspOuterClass.WeaponPromoteRsp;
+import io.grasscutter.net.proto.item.WeaponPromoteRsp;
 
 public class PacketWeaponPromoteRsp extends BasePacket {
 

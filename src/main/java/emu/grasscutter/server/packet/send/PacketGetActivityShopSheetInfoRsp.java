@@ -3,8 +3,8 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.activity.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ActivityShopSheetInfoOuterClass.ActivityShopSheetInfo;
-import emu.grasscutter.net.proto.GetActivityShopSheetInfoRspOuterClass.GetActivityShopSheetInfoRsp;
+import io.grasscutter.net.proto.shop.ActivityShopSheetInfo;
+import io.grasscutter.net.proto.shop.GetActivityShopSheetInfoRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 import java.util.*;
 

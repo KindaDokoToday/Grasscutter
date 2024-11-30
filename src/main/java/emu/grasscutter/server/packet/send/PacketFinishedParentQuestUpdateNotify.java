@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.quest.GameMainQuest;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.FinishedParentQuestUpdateNotifyOuterClass.FinishedParentQuestUpdateNotify;
+import io.grasscutter.net.proto.quest.FinishedParentQuestUpdateNotify;
 import java.util.List;
 
 public class PacketFinishedParentQuestUpdateNotify extends BasePacket {

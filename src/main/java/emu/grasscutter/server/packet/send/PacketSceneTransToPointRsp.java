@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
-import emu.grasscutter.net.proto.SceneTransToPointRspOuterClass.SceneTransToPointRsp;
+import io.grasscutter.net.proto.scene.SceneTransToPointRsp;
 
 public class PacketSceneTransToPointRsp extends BasePacket {
 

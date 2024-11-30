@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SetOpenStateReqOuterClass.SetOpenStateReq;
+import io.grasscutter.net.proto.player.SetOpenStateReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.SetOpenStateReq)

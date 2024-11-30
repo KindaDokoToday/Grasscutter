@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TowerTeamSelectRspOuterClass.TowerTeamSelectRsp;
+import io.grasscutter.net.proto.tower.TowerTeamSelectRsp;
 
 public class PacketTowerTeamSelectRsp extends BasePacket {
 

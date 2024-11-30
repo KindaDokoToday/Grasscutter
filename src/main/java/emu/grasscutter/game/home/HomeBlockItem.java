@@ -4,7 +4,7 @@ import dev.morphia.annotations.*;
 import emu.grasscutter.data.binout.HomeworldDefaultSaveData;
 import emu.grasscutter.game.home.suite.HomeSuiteItem;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.HomeBlockArrangementInfoOuterClass.HomeBlockArrangementInfo;
+import io.grasscutter.net.proto.home.HomeBlockArrangementInfo;
 import java.util.*;
 import java.util.stream.Stream;
 import lombok.*;

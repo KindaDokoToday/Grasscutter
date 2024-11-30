@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TowerLevelStarCondDataOuterClass.TowerLevelStarCondData;
-import emu.grasscutter.net.proto.TowerLevelStarCondNotifyOuterClass.TowerLevelStarCondNotify;
+import io.grasscutter.net.proto.tower.TowerLevelStarCondData;
+import io.grasscutter.net.proto.tower.TowerLevelStarCondNotify;
 
 public class PacketTowerLevelStarCondNotify extends BasePacket {
 

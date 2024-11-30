@@ -2,9 +2,9 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason;
-import emu.grasscutter.net.proto.DungeonEntryCondOuterClass.DungeonEntryCond;
-import emu.grasscutter.net.proto.GetDungeonEntryExploreConditionRspOuterClass.GetDungeonEntryExploreConditionRsp;
+import io.grasscutter.net.proto.scene.DungeonEntryBlockReason;
+import io.grasscutter.net.proto.scene.DungeonEntryCond;
+import io.grasscutter.net.proto.scene.GetDungeonEntryExploreConditionRsp;
 
 public class PacketGetDungeonEntryExploreConditionRsp extends BasePacket {
     public PacketGetDungeonEntryExploreConditionRsp(int dungeonId) {

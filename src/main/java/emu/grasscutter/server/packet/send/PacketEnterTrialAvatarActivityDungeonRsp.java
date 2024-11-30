@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EnterTrialAvatarActivityDungeonRspOuterClass.EnterTrialAvatarActivityDungeonRsp;
+import io.grasscutter.net.proto.activity.EnterTrialAvatarActivityDungeonRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 
 public class PacketEnterTrialAvatarActivityDungeonRsp extends BasePacket {

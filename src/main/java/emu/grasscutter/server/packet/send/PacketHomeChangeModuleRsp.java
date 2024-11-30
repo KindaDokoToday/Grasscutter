@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import emu.grasscutter.net.proto.HomeChangeModuleRspOuterClass.HomeChangeModuleRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.home.HomeChangeModuleRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketHomeChangeModuleRsp extends BasePacket {
 

@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarSkillUpgradeRspOuterClass.AvatarSkillUpgradeRsp;
+import io.grasscutter.net.proto.skill.AvatarSkillUpgradeRsp;
 
 public class PacketAvatarSkillUpgradeRsp extends BasePacket {
 

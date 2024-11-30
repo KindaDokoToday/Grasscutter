@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.BargainOfferPriceReqOuterClass.BargainOfferPriceReq;
+import io.grasscutter.net.proto.quest.BargainOfferPriceReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketBargainOfferPriceRsp;
 

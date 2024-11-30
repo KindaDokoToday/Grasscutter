@@ -4,10 +4,10 @@ import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.game.entity.gadget.worktop.WorktopWorktopOptionHandler;
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
-import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
-import emu.grasscutter.net.proto.SelectWorktopOptionReqOuterClass.SelectWorktopOptionReq;
-import emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo;
+import io.grasscutter.net.proto.gadget.GadgetInteractReq;
+import io.grasscutter.net.proto.define.SceneGadgetInfo;
+import io.grasscutter.net.proto.gadget.SelectWorktopOptionReq;
+import io.grasscutter.net.proto.define.WorktopInfo;
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import java.util.*;
 

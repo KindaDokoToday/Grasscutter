@@ -2,10 +2,10 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData;
-import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
-import emu.grasscutter.net.proto.PlayerCookRspOuterClass.PlayerCookRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.player.CookRecipeData;
+import io.grasscutter.net.proto.define.ItemParam;
+import io.grasscutter.net.proto.player.PlayerCookRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 import java.util.List;
 
 public class PacketPlayerCookRsp extends BasePacket {

@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CheckUgcStateReqOuterClass.CheckUgcStateReq;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.ugc.CheckUgcStateReq;
+import io.grasscutter.net.proto.retcode.Retcode;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketCheckUgcStateRsp;
 import lombok.val;

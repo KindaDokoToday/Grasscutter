@@ -2,9 +2,9 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.BattlePassRewardTakeOptionOuterClass.BattlePassRewardTakeOption;
-import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
-import emu.grasscutter.net.proto.TakeBattlePassRewardRspOuterClass.TakeBattlePassRewardRsp;
+import io.grasscutter.net.proto.battle_pass.BattlePassRewardTakeOption;
+import io.grasscutter.net.proto.define.ItemParam;
+import io.grasscutter.net.proto.battle_pass.TakeBattlePassRewardRsp;
 import java.util.List;
 
 public class PacketTakeBattlePassRewardRsp extends BasePacket {

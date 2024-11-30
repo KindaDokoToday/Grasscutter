@@ -6,8 +6,8 @@ import emu.grasscutter.game.props.EnterReason;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.game.world.data.TeleportProperties;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
-import emu.grasscutter.net.proto.PlayerEnterSceneNotifyOuterClass.PlayerEnterSceneNotify;
+import io.grasscutter.net.proto.scene.EnterType;
+import io.grasscutter.net.proto.scene.PlayerEnterSceneNotify;
 import emu.grasscutter.utils.Utils;
 
 public class PacketPlayerEnterSceneNotify extends BasePacket {

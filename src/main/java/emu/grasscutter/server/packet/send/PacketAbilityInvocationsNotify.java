@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AbilityInvocationsNotifyOuterClass.AbilityInvocationsNotify;
-import emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry;
+import io.grasscutter.net.proto.ability.AbilityInvocationsNotify;
+import io.grasscutter.net.proto.ability.AbilityInvokeEntry;
 import java.util.List;
 
 public class PacketAbilityInvocationsNotify extends BasePacket {

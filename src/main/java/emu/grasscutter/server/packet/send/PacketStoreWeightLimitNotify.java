@@ -3,8 +3,8 @@ package emu.grasscutter.server.packet.send;
 import static emu.grasscutter.config.Configuration.INVENTORY_LIMITS;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType;
-import emu.grasscutter.net.proto.StoreWeightLimitNotifyOuterClass.StoreWeightLimitNotify;
+import io.grasscutter.net.proto.define.StoreType;
+import io.grasscutter.net.proto.item.StoreWeightLimitNotify;
 
 public class PacketStoreWeightLimitNotify extends BasePacket {
 

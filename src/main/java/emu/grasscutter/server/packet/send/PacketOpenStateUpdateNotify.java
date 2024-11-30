@@ -4,7 +4,7 @@ import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.OpenStateData;
 import emu.grasscutter.game.player.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.OpenStateUpdateNotifyOuterClass.OpenStateUpdateNotify;
+import io.grasscutter.net.proto.player.OpenStateUpdateNotify;
 
 import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 

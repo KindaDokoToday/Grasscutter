@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture;
-import emu.grasscutter.net.proto.SetPlayerHeadImageRspOuterClass.SetPlayerHeadImageRsp;
+import io.grasscutter.net.proto.define.ProfilePicture;
+import io.grasscutter.net.proto.social.SetPlayerHeadImageRsp;
 
 public class PacketSetPlayerHeadImageRsp extends BasePacket {
 

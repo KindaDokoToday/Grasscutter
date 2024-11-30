@@ -2,8 +2,8 @@ package emu.grasscutter.game.activity.trialavatar;
 
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.common.BaseTrialActivityData;
-import emu.grasscutter.net.proto.TrialAvatarActivityDetailInfoOuterClass.TrialAvatarActivityDetailInfo;
-import emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo;
+import io.grasscutter.net.proto.activity.TrialAvatarActivityDetailInfo;
+import io.grasscutter.net.proto.activity.TrialAvatarActivityRewardDetailInfo;
 import java.util.List;
 import java.util.stream.*;
 import lombok.*;

@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ChangeAvatarRspOuterClass.ChangeAvatarRsp;
+import io.grasscutter.net.proto.avatar.ChangeAvatarRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 
 public class PacketChangeAvatarRsp extends BasePacket {

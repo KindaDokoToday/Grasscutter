@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData;
-import emu.grasscutter.net.proto.PlayerCompoundMaterialRspOuterClass.PlayerCompoundMaterialRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.player.CompoundQueueData;
+import io.grasscutter.net.proto.player.PlayerCompoundMaterialRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketPlayerCompoundMaterialRsp extends BasePacket {
     /**

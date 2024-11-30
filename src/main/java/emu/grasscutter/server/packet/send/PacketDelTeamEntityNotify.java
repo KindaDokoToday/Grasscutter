@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DelTeamEntityNotifyOuterClass.DelTeamEntityNotify;
+import io.grasscutter.net.proto.fight.DelTeamEntityNotify;
 import java.util.List;
 
 public class PacketDelTeamEntityNotify extends BasePacket {

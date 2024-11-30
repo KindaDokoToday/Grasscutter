@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.OpenStateChangeNotifyOuterClass.OpenStateChangeNotify;
+import io.grasscutter.net.proto.player.OpenStateChangeNotify;
 import java.util.Map;
 
 // Sets openState to value

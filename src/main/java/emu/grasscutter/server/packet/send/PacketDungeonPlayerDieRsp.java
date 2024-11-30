@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DungeonPlayerDieRspOuterClass.DungeonPlayerDieRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.dungeon.DungeonPlayerDieRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketDungeonPlayerDieRsp extends BasePacket {
 

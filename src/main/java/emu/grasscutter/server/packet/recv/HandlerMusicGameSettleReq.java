@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.recv;
 import emu.grasscutter.game.activity.musicgame.*;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.MusicGameSettleReqOuterClass.MusicGameSettleReq;
+import io.grasscutter.net.proto.activity.MusicGameSettleReq;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.*;

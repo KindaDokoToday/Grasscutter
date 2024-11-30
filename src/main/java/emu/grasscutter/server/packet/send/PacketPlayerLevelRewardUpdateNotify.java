@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PlayerLevelRewardUpdateNotifyOuterClass.PlayerLevelRewardUpdateNotify;
+import io.grasscutter.net.proto.player.PlayerLevelRewardUpdateNotify;
 import java.util.Set;
 
 public class PacketPlayerLevelRewardUpdateNotify extends BasePacket {

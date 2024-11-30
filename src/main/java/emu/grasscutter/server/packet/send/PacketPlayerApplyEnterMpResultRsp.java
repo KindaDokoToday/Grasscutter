@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PlayerApplyEnterMpResultRspOuterClass.PlayerApplyEnterMpResultRsp;
+import io.grasscutter.net.proto.mp.PlayerApplyEnterMpResultRsp;
 
 public class PacketPlayerApplyEnterMpResultRsp extends BasePacket {
 

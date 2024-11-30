@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarGainFlycloakNotifyOuterClass.AvatarGainFlycloakNotify;
+import io.grasscutter.net.proto.avatar.AvatarGainFlycloakNotify;
 
 public class PacketAvatarGainFlycloakNotify extends BasePacket {
 

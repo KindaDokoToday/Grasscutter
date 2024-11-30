@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ClientAbilitiesInitFinishCombineNotifyOuterClass.ClientAbilitiesInitFinishCombineNotify;
-import emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry;
+import io.grasscutter.net.proto.ability.ClientAbilitiesInitFinishCombineNotify;
+import io.grasscutter.net.proto.ability.EntityAbilityInvokeEntry;
 import java.util.List;
 
 public class PacketClientAbilitiesInitFinishCombineNotify extends BasePacket {

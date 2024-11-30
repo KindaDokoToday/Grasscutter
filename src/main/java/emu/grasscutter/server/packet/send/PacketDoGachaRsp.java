@@ -3,10 +3,10 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.data.common.ItemParamData;
 import emu.grasscutter.game.gacha.*;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp;
-import emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem;
+import io.grasscutter.net.proto.gacha.DoGachaRsp;
+import io.grasscutter.net.proto.gacha.GachaItem;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.retcode.Retcode;
 import java.util.List;
 
 public class PacketDoGachaRsp extends BasePacket {

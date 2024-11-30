@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SetPlayerNameReqOuterClass.SetPlayerNameReq;
+import io.grasscutter.net.proto.player.SetPlayerNameReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketSetPlayerNameRsp;
 

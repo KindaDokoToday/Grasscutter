@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.WorldPlayerReviveRspOuterClass.WorldPlayerReviveRsp;
+import io.grasscutter.net.proto.scene.WorldPlayerReviveRsp;
 
 public class PacketWorldPlayerReviveRsp extends BasePacket {
 

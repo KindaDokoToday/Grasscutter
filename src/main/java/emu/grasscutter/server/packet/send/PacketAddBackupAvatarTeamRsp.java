@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AddBackupAvatarTeamRspOuterClass.AddBackupAvatarTeamRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.avatar.AddBackupAvatarTeamRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketAddBackupAvatarTeamRsp extends BasePacket {
     public PacketAddBackupAvatarTeamRsp(Retcode retcode) {

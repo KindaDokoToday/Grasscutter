@@ -11,7 +11,7 @@ import emu.grasscutter.game.inventory.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.props.ItemUseAction.*;
-import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
+import io.grasscutter.net.proto.define.ItemParam;
 import emu.grasscutter.net.proto.MaterialInfoOuterClass.MaterialInfo;
 import emu.grasscutter.server.event.player.*;
 import emu.grasscutter.server.game.*;

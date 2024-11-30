@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ServerGlobalValueChangeNotifyOuterClass.ServerGlobalValueChangeNotify;
+import io.grasscutter.net.proto.ability.ServerGlobalValueChangeNotify;
 import emu.grasscutter.utils.Utils;
 
 public final class PacketServerGlobalValueChangeNotify extends BasePacket {

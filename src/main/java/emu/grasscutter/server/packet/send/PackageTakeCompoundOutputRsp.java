@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
-import emu.grasscutter.net.proto.TakeCompoundOutputRspOuterClass.TakeCompoundOutputRsp;
+import io.grasscutter.net.proto.define.ItemParam;
+import io.grasscutter.net.proto.player.TakeCompoundOutputRsp;
 
 public class PackageTakeCompoundOutputRsp extends BasePacket {
 

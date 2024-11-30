@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ReceivedTrialAvatarActivityRewardRspOuterClass.ReceivedTrialAvatarActivityRewardRsp;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.activity.ReceivedTrialAvatarActivityRewardRsp;
+import io.grasscutter.net.proto.retcode.Retcode;
 
 public class PacketReceivedTrialAvatarActivityRewardRsp extends BasePacket {
 

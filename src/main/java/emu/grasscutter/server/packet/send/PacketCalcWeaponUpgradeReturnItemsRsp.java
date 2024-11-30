@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CalcWeaponUpgradeReturnItemsRspOuterClass.CalcWeaponUpgradeReturnItemsRsp;
-import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
+import io.grasscutter.net.proto.item.CalcWeaponUpgradeReturnItemsRsp;
+import io.grasscutter.net.proto.define.ItemParam;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
 import java.util.List;
 

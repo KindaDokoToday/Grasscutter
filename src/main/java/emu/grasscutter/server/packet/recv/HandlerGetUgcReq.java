@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.recv;
 import emu.grasscutter.game.activity.musicgame.MusicGameBeatmap;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.*;
-import emu.grasscutter.net.proto.GetUgcReqOuterClass.GetUgcReq;
+import io.grasscutter.net.proto.ugc.GetUgcReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketGetUgcRsp;
 import lombok.val;

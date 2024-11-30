@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PlayerGetForceQuitBanInfoRspOuterClass.PlayerGetForceQuitBanInfoRsp;
+import io.grasscutter.net.proto.match.PlayerGetForceQuitBanInfoRsp;
 
 public class PacketPlayerGetForceQuitBanInfoRsp extends BasePacket {
 

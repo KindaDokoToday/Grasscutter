@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ChangeAvatarReqOuterClass.ChangeAvatarReq;
+import io.grasscutter.net.proto.avatar.ChangeAvatarReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.ChangeAvatarReq)

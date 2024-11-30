@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.quest.GameMainQuest;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CodexDataUpdateNotifyOuterClass.CodexDataUpdateNotify;
+import io.grasscutter.net.proto.codex.CodexDataUpdateNotify;
 
 public class PacketCodexDataUpdateNotify extends BasePacket {
     public PacketCodexDataUpdateNotify(GameMainQuest quest) {

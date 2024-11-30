@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
-import emu.grasscutter.net.proto.SceneKickPlayerRspOuterClass.SceneKickPlayerRsp;
+import io.grasscutter.net.proto.scene.SceneKickPlayerRsp;
 
 public class PacketSceneKickPlayerRsp extends BasePacket {
 

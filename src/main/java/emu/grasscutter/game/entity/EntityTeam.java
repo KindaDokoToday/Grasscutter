@@ -5,7 +5,7 @@ import emu.grasscutter.data.binout.AbilityData;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.EntityIdType;
 import emu.grasscutter.game.world.*;
-import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
+import io.grasscutter.net.proto.define.SceneEntityInfo;
 import it.unimi.dsi.fastutil.ints.*;
 
 public class EntityTeam extends GameEntity {

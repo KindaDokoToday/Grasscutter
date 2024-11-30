@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.recv;
 import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.game.entity.gadget.platform.AbilityRoute;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify;
+import io.grasscutter.net.proto.gadget.UpdateAbilityCreatedMovingPlatformNotify;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.UpdateAbilityCreatedMovingPlatformNotify)

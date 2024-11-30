@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PlayerCookArgsRspOuterClass.PlayerCookArgsRsp;
+import io.grasscutter.net.proto.player.PlayerCookArgsRsp;
 
 public class PacketPlayerCookArgsRsp extends BasePacket {
 

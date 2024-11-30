@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarSkillUpgradeReqOuterClass.AvatarSkillUpgradeReq;
+import io.grasscutter.net.proto.skill.AvatarSkillUpgradeReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.AvatarSkillUpgradeReq)

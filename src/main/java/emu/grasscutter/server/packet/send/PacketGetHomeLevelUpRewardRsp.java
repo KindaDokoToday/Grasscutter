@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.GetHomeLevelUpRewardRspOuterClass.GetHomeLevelUpRewardRsp;
+import io.grasscutter.net.proto.home.GetHomeLevelUpRewardRsp;
 
 public class PacketGetHomeLevelUpRewardRsp extends BasePacket {
 

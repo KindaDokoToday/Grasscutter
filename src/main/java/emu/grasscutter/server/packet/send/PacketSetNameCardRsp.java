@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SetNameCardRspOuterClass.SetNameCardRsp;
+import io.grasscutter.net.proto.social.SetNameCardRsp;
 
 public class PacketSetNameCardRsp extends BasePacket {
 

@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ScenePointUnlockNotifyOuterClass.ScenePointUnlockNotify;
+import io.grasscutter.net.proto.scene.ScenePointUnlockNotify;
 
 public class PacketScenePointUnlockNotify extends BasePacket {
     public PacketScenePointUnlockNotify(int sceneId, int pointId) {

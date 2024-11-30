@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.recv;
 import emu.grasscutter.game.activity.trialavatar.TrialAvatarActivityHandler;
 import emu.grasscutter.game.props.ActivityType;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EnterTrialAvatarActivityDungeonReqOuterClass.EnterTrialAvatarActivityDungeonReq;
+import io.grasscutter.net.proto.activity.EnterTrialAvatarActivityDungeonReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketEnterTrialAvatarActivityDungeonRsp;
 import lombok.val;

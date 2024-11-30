@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SceneInitFinishRspOuterClass.SceneInitFinishRsp;
+import io.grasscutter.net.proto.scene.SceneInitFinishRsp;
 
 public class PacketSceneInitFinishRsp extends BasePacket {
 

@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DungeonPlayerDieNotifyOuterClass.DungeonPlayerDieNotify;
-import emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType;
+import io.grasscutter.net.proto.dungeon.DungeonPlayerDieNotify;
+import io.grasscutter.net.proto.define.PlayerDieType;
 
 public class PacketDungeonPlayerDieNotify extends BasePacket {
 

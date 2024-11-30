@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SetBattlePassViewedRspOuterClass.SetBattlePassViewedRsp;
+import io.grasscutter.net.proto.battle_pass.SetBattlePassViewedRsp;
 
 public class PacketSetBattlePassViewedRsp extends BasePacket {
 

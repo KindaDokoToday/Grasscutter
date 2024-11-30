@@ -35,7 +35,7 @@ import emu.grasscutter.game.world.WorldDataSystem;
 import emu.grasscutter.net.INetworkTransport;
 import emu.grasscutter.net.impl.NetworkTransportImpl;
 import emu.grasscutter.net.packet.PacketHandler;
-import emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail;
+import io.grasscutter.net.proto.social.SocialDetail;
 import emu.grasscutter.server.dispatch.DispatchClient;
 import emu.grasscutter.server.event.game.ServerTickEvent;
 import emu.grasscutter.server.event.internal.ServerStartEvent;

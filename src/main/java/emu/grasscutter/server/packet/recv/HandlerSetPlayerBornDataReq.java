@@ -9,7 +9,7 @@ import emu.grasscutter.game.avatar.Avatar;
 import emu.grasscutter.game.mail.Mail;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SetPlayerBornDataReqOuterClass.SetPlayerBornDataReq;
+import io.grasscutter.net.proto.player.SetPlayerBornDataReq;
 import emu.grasscutter.server.game.GameSession;
 import java.util.Arrays;
 

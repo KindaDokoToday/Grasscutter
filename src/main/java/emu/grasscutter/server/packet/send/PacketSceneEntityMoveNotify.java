@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EntityMoveInfoOuterClass.EntityMoveInfo;
-import emu.grasscutter.net.proto.SceneEntityMoveNotifyOuterClass.SceneEntityMoveNotify;
+import io.grasscutter.net.proto.define.EntityMoveInfo;
+import io.grasscutter.net.proto.scene.SceneEntityMoveNotify;
 
 public class PacketSceneEntityMoveNotify extends BasePacket {
 

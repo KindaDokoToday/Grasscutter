@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AskAddFriendRspOuterClass.AskAddFriendRsp;
+import io.grasscutter.net.proto.social.AskAddFriendRsp;
 
 public class PacketAskAddFriendRsp extends BasePacket {
 

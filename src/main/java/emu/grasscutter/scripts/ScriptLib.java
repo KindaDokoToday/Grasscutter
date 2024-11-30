@@ -13,7 +13,7 @@ import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.quest.enums.*;
 import emu.grasscutter.game.world.*;
 import emu.grasscutter.net.proto.EnterTypeOuterClass;
-import emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType;
+import io.grasscutter.net.proto.scene.VisionType;
 import emu.grasscutter.scripts.constants.*;
 import emu.grasscutter.scripts.data.*;
 import emu.grasscutter.server.packet.send.*;

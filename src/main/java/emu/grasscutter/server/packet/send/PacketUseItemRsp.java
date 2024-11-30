@@ -3,7 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.RetcodeOuterClass;
-import emu.grasscutter.net.proto.UseItemRspOuterClass.UseItemRsp;
+import io.grasscutter.net.proto.item.UseItemRsp;
 
 public class PacketUseItemRsp extends BasePacket {
 

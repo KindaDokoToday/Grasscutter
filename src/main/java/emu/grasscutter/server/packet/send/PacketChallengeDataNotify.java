@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.dungeons.challenge.WorldChallenge;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ChallengeDataNotifyOuterClass.ChallengeDataNotify;
+import io.grasscutter.net.proto.dungeon.ChallengeDataNotify;
 
 public class PacketChallengeDataNotify extends BasePacket {
 

@@ -18,7 +18,7 @@ import emu.grasscutter.game.world.data.TeleportProperties;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint;
 import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintType;
-import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
+import io.grasscutter.net.proto.scene.EnterType;
 import emu.grasscutter.scripts.data.SceneConfig;
 import emu.grasscutter.server.event.player.PlayerTeleportEvent;
 import emu.grasscutter.server.event.player.PlayerTeleportEvent.TeleportType;

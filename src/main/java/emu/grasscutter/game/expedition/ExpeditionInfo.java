@@ -1,7 +1,7 @@
 package emu.grasscutter.game.expedition;
 
 import dev.morphia.annotations.Entity;
-import emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo;
+import io.grasscutter.net.proto.define.AvatarExpeditionInfo;
 import lombok.*;
 
 @Entity

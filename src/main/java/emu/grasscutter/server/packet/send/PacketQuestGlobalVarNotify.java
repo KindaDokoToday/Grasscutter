@@ -2,8 +2,8 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestGlobalVarNotifyOuterClass.QuestGlobalVarNotify;
-import emu.grasscutter.net.proto.QuestGlobalVarOuterClass.QuestGlobalVar;
+import io.grasscutter.net.proto.quest.QuestGlobalVarNotify;
+import io.grasscutter.net.proto.quest.QuestGlobalVar;
 
 public final class PacketQuestGlobalVarNotify extends BasePacket {
     public PacketQuestGlobalVarNotify(Player player) {

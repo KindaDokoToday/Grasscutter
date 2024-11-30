@@ -3,8 +3,8 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.SceneEntityAppearNotifyOuterClass.SceneEntityAppearNotify;
-import emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType;
+import io.grasscutter.net.proto.scene.SceneEntityAppearNotify;
+import io.grasscutter.net.proto.scene.VisionType;
 import java.util.Collection;
 
 public class PacketSceneEntityAppearNotify extends BasePacket {

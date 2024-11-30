@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType;
-import emu.grasscutter.net.proto.DealAddFriendRspOuterClass.DealAddFriendRsp;
+import io.grasscutter.net.proto.social.DealAddFriendResultType;
+import io.grasscutter.net.proto.social.DealAddFriendRsp;
 
 public class PacketDealAddFriendRsp extends BasePacket {
 

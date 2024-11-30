@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.FireworksLaunchDataNotifyOuterClass.FireworksLaunchDataNotify;
-import emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeData;
+import io.grasscutter.net.proto.widget.FireworksLaunchDataNotify;
+import io.grasscutter.net.proto.widget.FireworksLaunchSchemeData;
 
 public class PacketFireworksLaunchDataNotify extends BasePacket {
     public PacketFireworksLaunchDataNotify(FireworksLaunchSchemeData data) {

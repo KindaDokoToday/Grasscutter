@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ClientAbilityChangeNotifyOuterClass.ClientAbilityChangeNotify;
+import io.grasscutter.net.proto.ability.ClientAbilityChangeNotify;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.ClientAbilityChangeNotify)

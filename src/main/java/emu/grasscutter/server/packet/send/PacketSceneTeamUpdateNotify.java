@@ -2,9 +2,9 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo;
-import emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar;
-import emu.grasscutter.net.proto.SceneTeamUpdateNotifyOuterClass.SceneTeamUpdateNotify;
+import io.grasscutter.net.proto.define.AbilitySyncStateInfo;
+import io.grasscutter.net.proto.avatar.SceneTeamAvatar;
+import io.grasscutter.net.proto.avatar.SceneTeamUpdateNotify;
 
 public class PacketSceneTeamUpdateNotify extends BasePacket {
     public PacketSceneTeamUpdateNotify(Player player) {

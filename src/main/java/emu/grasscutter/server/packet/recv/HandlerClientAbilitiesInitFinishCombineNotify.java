@@ -2,9 +2,9 @@ package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry;
-import emu.grasscutter.net.proto.ClientAbilitiesInitFinishCombineNotifyOuterClass.ClientAbilitiesInitFinishCombineNotify;
-import emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry;
+import io.grasscutter.net.proto.ability.AbilityInvokeEntry;
+import io.grasscutter.net.proto.ability.ClientAbilitiesInitFinishCombineNotify;
+import io.grasscutter.net.proto.ability.EntityAbilityInvokeEntry;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.ClientAbilitiesInitFinishCombineNotify)

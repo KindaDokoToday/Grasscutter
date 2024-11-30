@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.EvtAvatarStandUpNotifyOuterClass.EvtAvatarStandUpNotify;
+import io.grasscutter.net.proto.fight.EvtAvatarStandUpNotify;
 
 public class PacketEvtAvatarStandUpNotify extends BasePacket {
 

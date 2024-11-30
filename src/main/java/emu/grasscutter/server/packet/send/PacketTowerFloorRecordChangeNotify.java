@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.TowerFloorRecordChangeNotifyOuterClass.TowerFloorRecordChangeNotify;
-import emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord;
-import emu.grasscutter.net.proto.TowerLevelRecordOuterClass.TowerLevelRecord;
+import io.grasscutter.net.proto.tower.TowerFloorRecordChangeNotify;
+import io.grasscutter.net.proto.tower.TowerFloorRecord;
+import io.grasscutter.net.proto.tower.TowerLevelRecord;
 
 public class PacketTowerFloorRecordChangeNotify extends BasePacket {
 

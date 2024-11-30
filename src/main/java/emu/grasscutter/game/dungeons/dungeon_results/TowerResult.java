@@ -5,7 +5,7 @@ import emu.grasscutter.game.dungeons.DungeonEndStats;
 import emu.grasscutter.game.dungeons.challenge.WorldChallenge;
 import emu.grasscutter.game.tower.TowerManager;
 import emu.grasscutter.net.proto.*;
-import emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify;
+import io.grasscutter.net.proto.tower.TowerLevelEndNotify;
 import emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.ContinueStateType;
 
 public class TowerResult extends BaseDungeonResult {

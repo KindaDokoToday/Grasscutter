@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.WidgetGadgetAllDataNotifyOuterClass.WidgetGadgetAllDataNotify;
+import io.grasscutter.net.proto.widget.WidgetGadgetAllDataNotify;
 
 public class PacketWidgetGadgetAllDataNotify extends BasePacket {
 

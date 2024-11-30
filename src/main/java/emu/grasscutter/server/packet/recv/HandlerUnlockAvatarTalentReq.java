@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.UnlockAvatarTalentReqOuterClass.UnlockAvatarTalentReq;
+import io.grasscutter.net.proto.skill.UnlockAvatarTalentReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.UnlockAvatarTalentReq)

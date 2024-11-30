@@ -1,9 +1,9 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ForgeGetQueueDataRspOuterClass.ForgeGetQueueDataRsp;
-import emu.grasscutter.net.proto.ForgeQueueDataOuterClass.ForgeQueueData;
-import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
+import io.grasscutter.net.proto.item.ForgeGetQueueDataRsp;
+import io.grasscutter.net.proto.item.ForgeQueueData;
+import io.grasscutter.net.proto.retcode.Retcode;
 import java.util.Map;
 
 public class PacketForgeGetQueueDataRsp extends BasePacket {

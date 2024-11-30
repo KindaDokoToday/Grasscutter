@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarDieAnimationEndRspOuterClass.AvatarDieAnimationEndRsp;
+import io.grasscutter.net.proto.avatar.AvatarDieAnimationEndRsp;
 
 public class PacketAvatarDieAnimationEndRsp extends BasePacket {
 

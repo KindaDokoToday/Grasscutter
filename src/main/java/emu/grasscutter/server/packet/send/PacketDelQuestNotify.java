@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.QuestDelNotifyOuterClass.QuestDelNotify;
+import io.grasscutter.net.proto.quest.QuestDelNotify;
 
 public class PacketDelQuestNotify extends BasePacket {
 

@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.expedition.ExpeditionInfo;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarExpeditionCallBackRspOuterClass.AvatarExpeditionCallBackRsp;
+import io.grasscutter.net.proto.avatar.AvatarExpeditionCallBackRsp;
 import java.util.Map;
 
 public class PacketAvatarExpeditionCallBackRsp extends BasePacket {

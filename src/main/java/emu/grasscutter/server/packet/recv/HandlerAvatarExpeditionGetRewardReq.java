@@ -4,7 +4,7 @@ import emu.grasscutter.game.expedition.*;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.props.ActionReason;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq;
+import io.grasscutter.net.proto.avatar.AvatarExpeditionGetRewardReq;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.*;
 import java.util.*;

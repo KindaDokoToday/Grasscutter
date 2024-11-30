@@ -5,7 +5,7 @@ import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.game.ability.Ability;
 import emu.grasscutter.game.entity.GameEntity;
-import emu.grasscutter.net.proto.AbilityActionSetRandomOverrideMapValueOuterClass.AbilityActionSetRandomOverrideMapValue;
+import io.grasscutter.net.proto.ability.AbilityActionSetRandomOverrideMapValue;
 
 @AbilityAction(AbilityModifierAction.Type.SetRandomOverrideMapValue)
 public class ActionSetRandomOverrideMapValue extends AbilityActionHandler {

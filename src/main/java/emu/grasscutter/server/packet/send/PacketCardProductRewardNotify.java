@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CardProductRewardNotifyOuterClass.CardProductRewardNotify;
+import io.grasscutter.net.proto.recharge.CardProductRewardNotify;
 
 public class PacketCardProductRewardNotify extends BasePacket {
 

@@ -2,7 +2,7 @@ package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.PersonalSceneJumpRspOuterClass.PersonalSceneJumpRsp;
+import io.grasscutter.net.proto.scene.PersonalSceneJumpRsp;
 
 public class PacketPersonalSceneJumpRsp extends BasePacket {
 

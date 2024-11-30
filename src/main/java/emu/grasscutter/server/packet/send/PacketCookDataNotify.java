@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.CookDataNotifyOuterClass.CookDataNotify;
-import emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData;
+import io.grasscutter.net.proto.player.CookDataNotify;
+import io.grasscutter.net.proto.player.CookRecipeData;
 import java.util.List;
 
 public class PacketCookDataNotify extends BasePacket {

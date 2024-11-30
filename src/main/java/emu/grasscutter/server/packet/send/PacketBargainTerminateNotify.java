@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.BargainTerminateNotifyOuterClass.BargainTerminateNotify;
+import io.grasscutter.net.proto.quest.BargainTerminateNotify;
 
 public final class PacketBargainTerminateNotify extends BasePacket {
     public PacketBargainTerminateNotify(int bargainId) {

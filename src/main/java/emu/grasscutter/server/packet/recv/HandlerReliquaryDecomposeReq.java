@@ -1,7 +1,7 @@
 package emu.grasscutter.server.packet.recv;
 
 import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.ReliquaryDecomposeReqOuterClass.ReliquaryDecomposeReq;
+import io.grasscutter.net.proto.item.ReliquaryDecomposeReq;
 import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.ReliquaryDecomposeReq)
